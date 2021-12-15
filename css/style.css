@@ -1,3 +1,43 @@
+header {
+  margin-top: 15px;
+  font-size: 25px;
+  font-family: "Inconsolata", sans-serif;
+  text-align: center;
+  background-image: url("/images/header.png");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.buttons {
+  font-family: "Inconsolata", sans-serif;
+  background-color: antiquewhite;
+  text-align: center;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+button {
+  padding: 30px 50px;
+  border: none;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin: 20px 20px;
+  font-weight: 300;
+  border-radius: 5%;
+  transition: all 1s;
+}
+
+button:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.messages {
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQTtFQUNJLGdCQUFBO0VBQ0EsZUFBQTtFQUNBLHNDQU5VO0VBT1Ysa0JBQUE7RUFDQSwyQ0FBQTtFQUNBLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDRCQUFBO0FDRko7O0FES0E7RUFDSSxzQ0FmVTtFQWdCViw4QkFBQTtFQUNBLGtCQUFBO0FDRko7O0FESUE7RUFDSSxrQkFBQTtFQUNBLFlBQUE7RUFDQSx1QkFBQTtFQUNBLHFDQXRCUTtFQXVCUixlQUFBO0VBQ0EsaUJBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7QUNESjs7QURHQTtFQUNJLDRCQUFBO0VBQ0EsZUFBQTtFQUNBLHVCQUFBO0FDQUo7O0FER0E7RUFDSSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxxQ0F0Q1E7RUF1Q1IsZUFBQTtBQ0FKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
