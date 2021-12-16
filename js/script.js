@@ -41,8 +41,8 @@ const playGame = function (playerInput){
         } else if(argPlayerMove == 'nieznany ruch'){
             printMessage('Nie ma wyniku!');
         } 
-    displayResults(argComputerMove, argPlayerMove);
     }
+    displayResults(argComputerMove, argPlayerMove);
     console.log(getMoveName('2'));
 }
 document.getElementById('play-rock').addEventListener('click', function(){
